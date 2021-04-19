@@ -1,0 +1,15 @@
+[package]
+name = "simple-wgpu-template"
+version = "0.1.0"
+authors = [ "i509VCB <git@i509.me>" ]
+edition = "2018"
+
+[dependencies]
+# Rendering
+wgpu = { version = "0.7.0" }
+
+# Windowing
+winit = { version = "0.24.0" }
+
+# Not required, I use it so I don't need to deal with async
+pollster = { version = "0.2.2" }
