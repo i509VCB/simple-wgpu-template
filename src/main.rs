@@ -204,7 +204,7 @@ fn render(state: &mut RenderState, scene: &Scene) -> RenderResult {
 /// You are given the scene for context.
 fn render_contents(
 	state: &mut RenderState,
-	_scene: &Scene,
+	scene: &Scene,
 	frame: &SwapChainFrame,
 	encoder: &mut CommandEncoder
 ) {
